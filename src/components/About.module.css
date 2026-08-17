@@ -1,0 +1,12 @@
+.body {
+  display: grid;
+  gap: var(--space-4);
+  max-width: 42rem;
+  font-size: 1.12rem;
+  color: var(--color-ink-soft);
+}
+
+.body p:first-child {
+  color: var(--color-ink);
+  font-size: 1.22rem;
+}

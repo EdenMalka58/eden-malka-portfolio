@@ -1,0 +1,38 @@
+:root {
+  /* Coastal engineer palette */
+  --color-ocean: #0b3a42;
+  --color-ocean-deep: #072a30;
+  --color-sand: #e8dfd0;
+  --color-sand-warm: #f3ebe0;
+  --color-ink: #14212b;
+  --color-ink-soft: #3a4a55;
+  --color-coral: #e07a5f;
+  --color-coral-hover: #c9654c;
+  --color-foam: #f7f3ec;
+  --color-line: rgba(20, 33, 43, 0.12);
+  --color-surface: rgba(247, 243, 236, 0.72);
+
+  --font-display: "Fraunces", "Times New Roman", serif;
+  --font-body: "Source Sans 3", "Segoe UI", sans-serif;
+
+  --space-1: 0.25rem;
+  --space-2: 0.5rem;
+  --space-3: 0.75rem;
+  --space-4: 1rem;
+  --space-5: 1.5rem;
+  --space-6: 2rem;
+  --space-7: 3rem;
+  --space-8: 4.5rem;
+  --space-9: 7rem;
+
+  --radius-sm: 0.35rem;
+  --radius-md: 0.75rem;
+  --radius-lg: 1.25rem;
+
+  --shadow-soft: 0 18px 50px rgba(11, 58, 66, 0.12);
+  --max-width: 1120px;
+  --nav-height: 4.25rem;
+
+  --ease-out: cubic-bezier(0.22, 1, 0.36, 1);
+  --duration: 0.55s;
+}

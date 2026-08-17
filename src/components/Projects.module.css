@@ -1,0 +1,124 @@
+.list {
+  display: grid;
+  gap: var(--space-5);
+}
+
+.item {
+  display: grid;
+  gap: var(--space-4);
+  padding-block: var(--space-5);
+  padding-inline: 0;
+  border-top: 1px solid var(--color-line);
+  border-radius: var(--radius-sm);
+  transition:
+    background-color 0.3s var(--ease-out),
+    padding-inline 0.3s var(--ease-out),
+    box-shadow 0.3s var(--ease-out);
+}
+
+.item:hover {
+  background: rgba(247, 243, 236, 0.55);
+  padding-inline: var(--space-4);
+  box-shadow: inset 3px 0 0 var(--color-coral);
+}
+
+:global([dir="rtl"]) .item:hover {
+  box-shadow: inset -3px 0 0 var(--color-coral);
+}
+
+.item:last-child {
+  border-bottom: 1px solid var(--color-line);
+}
+
+.title {
+  font-size: clamp(1.35rem, 2.5vw, 1.7rem);
+  color: var(--color-ocean-deep);
+  margin-bottom: var(--space-2);
+  transition: color 0.25s ease;
+}
+
+.item:hover .title {
+  color: var(--color-coral);
+}
+
+:global(html[lang="he"]) .title {
+  font-family: var(--font-body);
+}
+
+.summary {
+  color: var(--color-ink-soft);
+  max-width: 48rem;
+}
+
+.tech {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.65rem 1rem;
+  list-style: none;
+  margin: var(--space-4) 0 0;
+  padding: 0;
+  color: var(--color-ocean);
+  font-size: 0.92rem;
+  font-weight: 600;
+}
+
+.tech li {
+  transition: transform 0.25s var(--ease-out), color 0.2s ease;
+}
+
+.item:hover .tech li {
+  color: var(--color-ocean-deep);
+}
+
+.tech li:hover {
+  transform: translateY(-2px);
+  color: var(--color-coral);
+}
+
+.links {
+  display: flex;
+  flex-wrap: wrap;
+  gap: var(--space-4);
+  align-items: center;
+}
+
+.links a {
+  position: relative;
+  font-weight: 650;
+  text-decoration: none;
+  color: var(--color-coral);
+  transition: color 0.2s ease;
+}
+
+.links a::after {
+  content: "";
+  position: absolute;
+  left: 0;
+  right: 0;
+  bottom: -0.15em;
+  height: 1.5px;
+  background: currentColor;
+  transform: scaleX(0);
+  transform-origin: left center;
+  transition: transform 0.28s var(--ease-out);
+}
+
+:global([dir="rtl"]) .links a::after {
+  transform-origin: right center;
+}
+
+.links a:hover {
+  color: var(--color-coral-hover);
+}
+
+.links a:hover::after {
+  transform: scaleX(1);
+}
+
+@media (min-width: 800px) {
+  .item {
+    grid-template-columns: 1fr auto;
+    align-items: end;
+    gap: var(--space-6);
+  }
+}
