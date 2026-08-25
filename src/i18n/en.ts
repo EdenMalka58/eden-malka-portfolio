@@ -10,17 +10,17 @@ export const en: Dictionary = {
     contact: "Contact",
   },
   hero: {
-    role: "Full Stack Developer · Computer Science Student",
+    role: "Full Stack Developer · Computer Science Graduate",
     headline: "I build reliable full-stack products from the ground up.",
     supporting:
-      "Computer Science student at Ruppin with a sharp eye for systems, clean interfaces, and codebases that stay understandable as they grow.",
+      "Computer Science graduate from Ruppin with a sharp eye for systems, clean interfaces, and codebases that stay understandable as they grow.",
     ctaProjects: "View projects",
     ctaContact: "Get in touch",
   },
   about: {
     title: "About",
     body: [
-      "I’m Eden — a Full Stack developer and Computer Science student who enjoys turning messy problems into clear, working software.",
+      "I’m Eden — a Full Stack developer and Computer Science graduate who enjoys turning messy problems into clear, working software.",
       "I build client and server applications from scratch, dig into complex systems with patience, and keep learning modern tools that make shipping better products possible.",
       "Based in Hadera, Israel. Comfortable collaborating in Hebrew and English.",
     ],

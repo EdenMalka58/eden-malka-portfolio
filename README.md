@@ -1,6 +1,6 @@
 # Eden Malka — Portfolio
 
-Personal portfolio website for **Eden Malka**, Full Stack Developer and Computer Science student.  
+Personal portfolio website for **Eden Malka**, Full Stack Developer and Computer Science graduate.  
 The site showcases projects, skills, experience, and contact details — in both Hebrew and English.
 
 ## 🌐 Live Site
