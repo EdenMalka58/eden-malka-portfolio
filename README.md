@@ -12,7 +12,6 @@ The site showcases projects, skills, experience, and contact details — in both
 - **Bilingual** — Switch between Hebrew and English
 - **Responsive design** — Optimized for mobile, tablet, and desktop
 - **Scroll animations** — Content reveals progressively as you scroll
-- **Resume download** — PDF available for direct download from the site
 - **Social links** — LinkedIn, GitHub, email, and phone
 
 ## 🛠️ Tech Stack
@@ -33,7 +32,7 @@ src/
 ├── hooks/          # React hooks (useReveal)
 ├── i18n/           # Hebrew / English translations
 └── styles/         # Global styles and design tokens
-public/             # Favicon, icons, resume (PDF)
+public/             # Favicon and static assets
 ```
 
 ## 🚀 Setup & Development
